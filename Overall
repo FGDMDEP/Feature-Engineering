@@ -1,1 +1,17 @@
 
+
+
+# CATEGORICAL DATA
+# ----------------
+
+# Integer Encoding [implies ordinal variables > possible issue > may or may not make sense depending on context]
+  # Does not increase features number
+
+
+# One-Hot Encoding [Dummy Variables]
+  # Each category into features > expands features set
+  # Can reduce resulting features by creating higher level categories
+  # Dummy Variable Trap [multicollinearity] > features can be duplicated (for example with binary categories)
+  # Not easy to add new categories
+
+
